@@ -1,0 +1,182 @@
+body
+{
+  color:#40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1
+{
+  margin: 50px 0;
+  font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+  margin-bottom: 0;
+  font-size: 4.625rem; /* 16px; if 90px then 90/16 = 562.5% em or M or width of the capital letter M. 1 em= 16px. 90/16 =5.625 accisible to everybody when their settin i=their default font size. */
+}
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color:#66BFBF;
+  margin-top: 0;
+
+
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+hr
+{
+  border-style: dotted none none;
+  width: 10%;
+  border-color: grey;
+  border-width: 5px;
+}
+a
+{
+  color:#11999E;
+}
+.myImage
+{
+  width:150px;
+  border-radius:50%;
+  margin- bottom: 20px;
+}
+.top-container
+{
+
+  background-color: #eaf6f6;
+  padding-top: 70px;
+  position: relative;
+
+}
+#mydescription
+{
+  width:50%;
+  margin: auto;
+  margin-bottom: 50px;
+
+}
+.middle-container
+{
+  margin-top: 50px;
+}
+.pro
+{
+  text-decoration: underline;
+
+}
+.top-cloud
+{
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+.bottom-cloud
+{
+  position: absolute;
+  left:300px;
+  bottom: 221px;
+}
+.skills, .contact-me
+{
+  margin: 50px auto;
+}
+.contact-me
+{
+  width:50%;
+}
+.skillsIcon
+{
+  width:30px;
+}
+.skillsName
+{
+  vertical-align: top;
+  line-height: 2.0;
+}
+.skill-row
+{
+  width:50%;
+  margin: 30px auto;
+  text-align: left;
+  line-height: 2;
+}
+#computerImage
+{
+  width:25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+#computerImage2
+{
+  width:25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 20px;
+}
+.skillDescription
+{
+  //clear: left;
+}
+
+.bottom-container
+{
+  background-color: #66bfbf;
+  padding: 30px;
+}
+.footer-link
+{
+  color:#11999e;
+  margin-left: 28px;
+
+}
+
+.createdBy
+{
+  color:#eaf6f6;
+  margin-top: 15px;
+  font-size:.7rem;
+
+}
+.BUTTON_IQY {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 10px 16px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_IQY:hover {
+  // border: solid #337FED 1px;
+   background: #13E3CB;
+   background-image: -webkit-linear-gradient(top, #13E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #13E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #13E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #13E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #13E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   text-decoration: none;
+}
